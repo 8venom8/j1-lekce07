@@ -60,7 +60,8 @@ public class Svatky {
    */
   public MonthDay kdyMaSvatek(String jmeno) {
     //TODO
-    return null;
+
+    return svatky.get("jmeno");
   }
 
   /**
@@ -70,6 +71,9 @@ public class Svatky {
    */
   public boolean jeVSeznamu(String jmeno) {
     //TODO
+
+
+
     return false;
   }
 
@@ -79,7 +83,7 @@ public class Svatky {
    */
   public int getPocetJmen() {
     //TODO
-    return 0;
+    return svatky.size();
   }
 
   /**
@@ -121,7 +125,7 @@ public class Svatky {
   }
 
   /**
-   * Smaže jméo ze seznamu svátků.
+   * Smaže jméno ze seznamu svátků.
    * @param jmeno Jméno ke smazání.
    */
   public void smazatSvatek(String jmeno) {
