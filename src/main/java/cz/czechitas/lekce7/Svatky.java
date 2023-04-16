@@ -60,7 +60,7 @@ public class Svatky {
    */
   public MonthDay kdyMaSvatek(String jmeno) {
     //TODO
-    return svatky.get("jmeno");
+    return svatky.get(jmeno);
   }
 
 
